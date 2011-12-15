@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318745EB1499CBDD0094102D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318745EA1499CBDD0094102D /* Cocoa.framework */; };
+		318745F51499CBDD0094102D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 318745F31499CBDD0094102D /* InfoPlist.strings */; };
+		318745F71499CBDD0094102D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 318745F61499CBDD0094102D /* main.m */; };
+		318745FB1499CBDD0094102D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 318745F91499CBDD0094102D /* Credits.rtf */; };
+		318745FE1499CBDD0094102D /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318745FD1499CBDD0094102D /* PRHAppDelegate.m */; };
+		318746011499CBDD0094102D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318745FF1499CBDD0094102D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		318745E61499CBDD0094102D /* DirtyTextMatrixTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirtyTextMatrixTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		318745EA1499CBDD0094102D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		318745ED1499CBDD0094102D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		318745EE1499CBDD0094102D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		318745EF1499CBDD0094102D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		318745F21499CBDD0094102D /* DirtyTextMatrixTest-Info.plist */ = {isa = PBXFileReference; path = "DirtyTextMatrixTest-Info.plist"; sourceTree = "<group>"; };
+		318745F41499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		318745F61499CBDD0094102D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		318745F81499CBDD0094102D /* DirtyTextMatrixTest-Prefix.pch */ = {isa = PBXFileReference; path = "DirtyTextMatrixTest-Prefix.pch"; sourceTree = "<group>"; };
+		318745FA1499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		318745FC1499CBDD0094102D /* PRHAppDelegate.h */ = {isa = PBXFileReference; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		318745FD1499CBDD0094102D /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
+		318746001499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318745E31499CBDD0094102D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318745EB1499CBDD0094102D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318745DB1499CBDC0094102D = {
+			isa = PBXGroup;
+			children = (
+				318745F01499CBDD0094102D /* DirtyTextMatrixTest */,
+				318745E91499CBDD0094102D /* Frameworks */,
+				318745E71499CBDD0094102D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318745E71499CBDD0094102D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318745E61499CBDD0094102D /* DirtyTextMatrixTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318745E91499CBDD0094102D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318745EA1499CBDD0094102D /* Cocoa.framework */,
+				318745EC1499CBDD0094102D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		318745EC1499CBDD0094102D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318745ED1499CBDD0094102D /* AppKit.framework */,
+				318745EE1499CBDD0094102D /* CoreData.framework */,
+				318745EF1499CBDD0094102D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		318745F01499CBDD0094102D /* DirtyTextMatrixTest */ = {
+			isa = PBXGroup;
+			children = (
+				318745FC1499CBDD0094102D /* PRHAppDelegate.h */,
+				318745FD1499CBDD0094102D /* PRHAppDelegate.m */,
+				318745FF1499CBDD0094102D /* MainMenu.xib */,
+				318745F11499CBDD0094102D /* Supporting Files */,
+			);
+			path = DirtyTextMatrixTest;
+			sourceTree = "<group>";
+		};
+		318745F11499CBDD0094102D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				318745F21499CBDD0094102D /* DirtyTextMatrixTest-Info.plist */,
+				318745F31499CBDD0094102D /* InfoPlist.strings */,
+				318745F61499CBDD0094102D /* main.m */,
+				318745F81499CBDD0094102D /* DirtyTextMatrixTest-Prefix.pch */,
+				318745F91499CBDD0094102D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318745E51499CBDD0094102D /* DirtyTextMatrixTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318746041499CBDD0094102D /* Build configuration list for PBXNativeTarget "DirtyTextMatrixTest" */;
+			buildPhases = (
+				318745E21499CBDD0094102D /* Sources */,
+				318745E31499CBDD0094102D /* Frameworks */,
+				318745E41499CBDD0094102D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirtyTextMatrixTest;
+			productName = DirtyTextMatrixTest;
+			productReference = 318745E61499CBDD0094102D /* DirtyTextMatrixTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318745DD1499CBDC0094102D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Captured Magic, LLC";
+			};
+			buildConfigurationList = 318745E01499CBDC0094102D /* Build configuration list for PBXProject "DirtyTextMatrixTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 318745DB1499CBDC0094102D;
+			productRefGroup = 318745E71499CBDD0094102D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318745E51499CBDD0094102D /* DirtyTextMatrixTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318745E41499CBDD0094102D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318745F51499CBDD0094102D /* InfoPlist.strings in Resources */,
+				318745FB1499CBDD0094102D /* Credits.rtf in Resources */,
+				318746011499CBDD0094102D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318745E21499CBDD0094102D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318745F71499CBDD0094102D /* main.m in Sources */,
+				318745FE1499CBDD0094102D /* PRHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		318745F31499CBDD0094102D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318745F41499CBDD0094102D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		318745F91499CBDD0094102D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318745FA1499CBDD0094102D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		318745FF1499CBDD0094102D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318746001499CBDD0094102D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		318746021499CBDD0094102D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		318746031499CBDD0094102D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		318746051499CBDD0094102D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyTextMatrixTest/DirtyTextMatrixTest-Prefix.pch";
+				INFOPLIST_FILE = "DirtyTextMatrixTest/DirtyTextMatrixTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		318746061499CBDD0094102D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirtyTextMatrixTest/DirtyTextMatrixTest-Prefix.pch";
+				INFOPLIST_FILE = "DirtyTextMatrixTest/DirtyTextMatrixTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318745E01499CBDC0094102D /* Build configuration list for PBXProject "DirtyTextMatrixTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318746021499CBDD0094102D /* Debug */,
+				318746031499CBDD0094102D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318746041499CBDD0094102D /* Build configuration list for PBXNativeTarget "DirtyTextMatrixTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318746051499CBDD0094102D /* Debug */,
+				318746061499CBDD0094102D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318745DD1499CBDC0094102D /* Project object */;
+}
