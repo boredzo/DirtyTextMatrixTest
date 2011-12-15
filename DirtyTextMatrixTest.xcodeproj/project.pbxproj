@@ -13,6 +13,7 @@
 		318745FB1499CBDD0094102D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 318745F91499CBDD0094102D /* Credits.rtf */; };
 		318745FE1499CBDD0094102D /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318745FD1499CBDD0094102D /* PRHAppDelegate.m */; };
 		318746011499CBDD0094102D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 318745FF1499CBDD0094102D /* MainMenu.xib */; };
+		318746091499CC0A0094102D /* PRHCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 318746081499CC0A0094102D /* PRHCoreTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		318745ED1499CBDD0094102D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		318745EE1499CBDD0094102D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		318745EF1499CBDD0094102D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		318745F21499CBDD0094102D /* DirtyTextMatrixTest-Info.plist */ = {isa = PBXFileReference; path = "DirtyTextMatrixTest-Info.plist"; sourceTree = "<group>"; };
+		318745F21499CBDD0094102D /* DirtyTextMatrixTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirtyTextMatrixTest-Info.plist"; sourceTree = "<group>"; };
 		318745F41499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		318745F61499CBDD0094102D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		318745F81499CBDD0094102D /* DirtyTextMatrixTest-Prefix.pch */ = {isa = PBXFileReference; path = "DirtyTextMatrixTest-Prefix.pch"; sourceTree = "<group>"; };
+		318745F81499CBDD0094102D /* DirtyTextMatrixTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirtyTextMatrixTest-Prefix.pch"; sourceTree = "<group>"; };
 		318745FA1499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		318745FC1499CBDD0094102D /* PRHAppDelegate.h */ = {isa = PBXFileReference; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		318745FC1499CBDD0094102D /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
 		318745FD1499CBDD0094102D /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		318746001499CBDD0094102D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		318746071499CC0A0094102D /* PRHCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHCoreTextView.h; sourceTree = "<group>"; };
+		318746081499CC0A0094102D /* PRHCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHCoreTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				318745FD1499CBDD0094102D /* PRHAppDelegate.m */,
 				318745FF1499CBDD0094102D /* MainMenu.xib */,
 				318745F11499CBDD0094102D /* Supporting Files */,
+				318746071499CC0A0094102D /* PRHCoreTextView.h */,
+				318746081499CC0A0094102D /* PRHCoreTextView.m */,
 			);
 			path = DirtyTextMatrixTest;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				318745F71499CBDD0094102D /* main.m in Sources */,
 				318745FE1499CBDD0094102D /* PRHAppDelegate.m in Sources */,
+				318746091499CC0A0094102D /* PRHCoreTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
